@@ -1,0 +1,7 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E3FFFC;
+    height: 100vh;
+}
