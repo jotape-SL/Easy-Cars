@@ -31,26 +31,31 @@
     </div>
     <main>
       <p class="login-text">Login</p>
-      <div class="input-group mb-3">
+      <div class="input-div">
         <input
           type="email"
-          class="form-control"
           placeholder="Email"
           aria-label="Email"
           aria-describedby="Email"
         />
       </div>
-      <div class="input-group mb-3">
-        <input
-          type="password"
-          class="form-control"
-          placeholder="Senha"
-          aria-label="Senha"
-          aria-describedby="Senha"
-        />
-        <span class="material-symbols-outlined password_icon">
-          visibility_off
-        </span>
+      <div class="input-div passoword-div">
+          <input
+            type="password"
+            class="bdr-icon"
+            id="password"
+            placeholder="Senha"
+            aria-label="Senha"
+            aria-describedby="Senha"
+          />
+          <span
+            onclick="togglePasswordVisibility()"
+            id="showHideButton"
+            class="material-symbols-outlined password_icon"
+          >
+            visibility_off
+          </span>
+        </div>
       </div>
       <div>
         <a href="./TelaCadastro.html">
@@ -68,4 +73,5 @@
       </div>
     </main>
   </body>
+  <script src="/assets/js/togglePasswordVisibility.js"></script>
 </html>

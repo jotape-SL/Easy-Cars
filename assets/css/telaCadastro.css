@@ -29,21 +29,29 @@ h1{
     font-weight: bold;
     color: #084A48;
 }
-.input-group{
-    width: 80vw;
-    height: 45px;
-}
-.form-control{
-    background-color: #CFE2E2;
+
+input{
     text-align: center;
-    border-radius: 0.375rem !important;
+    width: -webkit-fill-available !important;
+    height: 45px !important;
+    background-color: #CFE2E2;
+    border-radius: 0.375rem;
 }
-.password_icon{
+
+.input-div{
+    position: relative;
+    width: 80vw;
+}
+.passoword-div{
+    margin: 1.5rem 0 2rem;
+}
+.password_icon {
     position: absolute;
-    left: 85%;
-    bottom: 11px;
-    color: #084A48;
-    opacity: .5;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 20px;
 }
 
 .btn-easycar{
