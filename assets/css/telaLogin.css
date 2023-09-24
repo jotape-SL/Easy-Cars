@@ -1,6 +1,7 @@
 body{
     padding: 16px;
-    height: -webkit-fill-available;
+    overflow: hidden;
+
 }
 main{
     text-align: center;
@@ -9,6 +10,7 @@ main{
     align-items: center;
 }
 .header_text{
+    color: #084A48;
     margin-top: 24px;
 }
 h1{
@@ -23,22 +25,59 @@ h1{
     margin:20px 0 40px 0;
     display: flex;
     flex-direction: column;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.nuvem_1{
+    animation: nuvemMovement 30s reverse linear infinite;
+}
+.nuvem_2{
+    animation: nuvemMovement 20s linear infinite;
+}
+.nuvem_3{
+    animation: nuvemMovement 30s linear infinite;
+}
+@keyframes nuvemMovement{
+    0%{transform: translateX(-200%)}
+    100%{transform: translateX(200%)}
+}
+
+.carro{
+    z-index: 4;
 }
 
 .login_btns{
+    position: relative;
     width: 100vw;
-    background-image: linear-gradient(184deg, rgba(8, 74, 72, 0.70) -32.79%, #084A48 96.53%);
     height: 30vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
 }
+.login_btns div{
+    z-index: 4;
+}
+.login_btns:before{
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    height: 80vh;
+    left: 0;
+    top: -3rem;
+    z-index: 3;
+    content: "";
+    background-image: linear-gradient(184deg, rgba(8, 74, 72, 0.70) -32.79%, #084A48 96.53%);
+    transform: skewY(356deg);
+    display: block;
+}
+
 .btn-google__logo{
     background-color: #084A48;
     border-radius: 100%;
-    width: 26px;
-    height: 26px;
+    width: 28px;
+    height: 28px;
     margin-right: 13px;
 }
 .btn-easycar{
@@ -51,8 +90,8 @@ h1{
     align-items: center;
     border-radius: 10px;
     margin: 25px 0;
-    width: 252px;
-    height: 42px;
+    width: 260px;
+    height: 50px;
 }
 .btn-easycar__entrar{
     font-size: 18px;
