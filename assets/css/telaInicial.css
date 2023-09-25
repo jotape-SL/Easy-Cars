@@ -34,10 +34,24 @@ main h2{
 .filtros p{
     padding: .3rem;
     border-radius: 1rem;
+    font-weight: 500;
     margin: 0 .15rem;
     border: 1px solid #888888;
 }
-
+.filtro-active {
+    background-color: #ceebe894;
+    border-color: #292929 !important;
+    color: black !important;
+}
+.carro-cards{
+    overflow: auto;
+    display: flex;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.carro-cards::-webkit-scrollbar {
+    display: none;
+  }
 .carro-card{
     border-radius: 5px;
     background: linear-gradient(180deg, rgba(88, 255, 237, 0.10) 0%, rgba(232, 255, 252, 0.00) 100%, rgba(255, 255, 255, 0.10) 100%);
@@ -47,7 +61,7 @@ main h2{
     width: fit-content;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    margin: 1rem 0;
+    margin: 1rem 0.5rem;
 }
 .carro-div{
     text-align: center;
@@ -81,3 +95,42 @@ main h2{
 .content{
     padding: 0 1rem;
 }
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin: 1rem 0 2rem 0;
+}
+.perguntas{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    transition: all 0.3s ease;
+    margin-top: 1rem;
+}
+
+.resposta{
+    display: block;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in;
+}
+.perguntas.active .icon {
+  transform: rotate(180deg);
+}
+.icon {
+    cursor: pointer;
+    transition: transform 0.3s ease-in;
+}
+
+.perguntas.active .resposta {
+    max-height: 200px;
+    display: none;
+}
+
+

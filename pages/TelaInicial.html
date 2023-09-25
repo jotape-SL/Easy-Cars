@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Poppins:wght@300;400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&family=Poppins:wght@300;400;500;600&display=swap"
       rel="stylesheet"
     />
     <link
@@ -38,58 +38,121 @@
     <main>
       <h2>Os nossos veículos</h2>
       <div class="filtros">
-        <p>Todos</p>
-        <p>Elétricos</p>
-        <p>Espaçoso</p>
-        <p>SUV</p>
-        <p>Compacto</p>
-        <p>Automático</p>
+        <p class="filtro filtro-active">Todos</p>
+        <p class="filtro">Elétricos</p>
+        <p class="filtro">Espaçoso</p>
+        <p class="filtro">SUV</p>
+        <p class="filtro">Compacto</p>
+        <p class="filtro">Automático</p>
       </div>
-      <div class="carro-card">
-        <div class="carro-div">
-          <img
-            src="/assets/images/Esportivo verde.svg"
-            alt="Carro"
-            class="carro-img"
-          />
-          <p>Marca Genérica, Carro Genérico</p>
+      <div class="carro-cards">
+        <div class="carro-card">
+          <div class="carro-div">
+            <img
+              src="/assets/images/Esportivo verde.svg"
+              alt="Carro"
+              class="carro-img"
+            />
+            <p>Marca Genérica, Carro Genérico</p>
+          </div>
+          <div class="especificacoes">
+            <div class="especificacao">
+              <div class="icon">
+                <span class="material-symbols-outlined"> boy </span>
+              </div>
+              <p>5 Pessoas</p>
+            </div>
+            <div class="especificacao">
+              <div class="icon">
+                <span class="material-symbols-outlined"> mode_fan </span>
+              </div>
+              <p>Ar-Condicionado</p>
+            </div>
+            <div class="especificacao">
+              <div class="icon">
+                <span class="material-symbols-outlined"> speed </span>
+              </div>
+              <p>Automático</p>
+            </div>
+          </div>
+          <div>
+            <div class="footer-content">
+              <p class="">Mais Detalhes</p>
+              <div class="icon">
+                <span class="material-symbols-outlined"> east </span>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="especificacoes">
-          <div class="especificacao">
-            <div class="icon">
-              <span class="material-symbols-outlined"> boy </span>
-            </div>
-            <p>5 Pessoas</p>
+        <div class="carro-card">
+          <div class="carro-div">
+            <img
+              src="/assets/images/Esportivo verde.svg"
+              alt="Carro"
+              class="carro-img"
+            />
+            <p>Marca Genérica, Carro Genérico</p>
           </div>
-          <div class="especificacao">
-            <div class="icon">
-              <span class="material-symbols-outlined"> mode_fan </span>
+          <div class="especificacoes">
+            <div class="especificacao">
+              <div class="icon">
+                <span class="material-symbols-outlined"> boy </span>
+              </div>
+              <p>5 Pessoas</p>
             </div>
-            <p>Ar-Condicionado</p>
-          </div>
-          <div class="especificacao">
-            <div class="icon">
-              <span class="material-symbols-outlined"> speed </span>
+            <div class="especificacao">
+              <div class="icon">
+                <span class="material-symbols-outlined"> mode_fan </span>
+              </div>
+              <p>Ar-Condicionado</p>
             </div>
-            <p>Automático</p>
+            <div class="especificacao">
+              <div class="icon">
+                <span class="material-symbols-outlined"> speed </span>
+              </div>
+              <p>Automático</p>
+            </div>
           </div>
-        </div>
-        <div>
-          <div class="footer-content">
-            <p class="">Mais Detalhes</p>
-            <div class="icon">
-              <span class="material-symbols-outlined"> east </span>
+          <div>
+            <div class="footer-content">
+              <p class="">Mais Detalhes</p>
+              <div class="icon">
+                <span class="material-symbols-outlined"> east </span>
+              </div>
             </div>
           </div>
         </div>
       </div>
+
       <h3>Precisa de ajuda?</h3>
       <div class="FAQ">
         <div class="perguntas">
           <p>Como funciona?</p>
-          <div class="icon"></div>
+          <div class="icon">
+            <span class="material-symbols-outlined"> expand_more </span>
+          </div>
+          <div class="resposta">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac
+              elit vitae urna commodo scelerisque.
+            </p>
+          </div>
+        </div>
+        <div class="perguntas">
+          <p>De que formas posso pagar?</p>
+          <div class="icon">
+            <span class="material-symbols-outlined"> expand_more </span>
+          </div>
+          <div class="resposta">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac
+              elit vitae urna commodo scelerisque.
+            </p>
+          </div>
         </div>
       </div>
     </main>
   </body>
+  <script src="/assets/js/FAQAnswers.js"></script>
+  <script src="/assets/js/filtrosActive.js"></script>
 </html>

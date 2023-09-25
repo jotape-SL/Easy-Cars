@@ -3,9 +3,7 @@ body{
     flex-direction: column;
     font-family: 'Montserrat', sans-serif;
     background-color: #E3FFFC;
-    height: 100vh;
     padding: 16px;
-    overflow: hidden;
 }
 
 .btn-easycar{
