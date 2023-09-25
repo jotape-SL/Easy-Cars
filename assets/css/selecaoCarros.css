@@ -1,0 +1,8 @@
+body{
+    padding: 0;
+}
+.header{
+    text-align: center;
+    padding: 2rem 1rem;
+    background-image: linear-gradient(21deg, #999 49.95%, rgba(255, 255, 255, 0.00) 87.42%);
+}
