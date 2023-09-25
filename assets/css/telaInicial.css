@@ -1,0 +1,136 @@
+body{
+    padding: 0;
+}
+
+header{
+    background-color: #B1C3C2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+}
+header h1{
+    margin-top: 2.5rem;
+}
+.btn-easycar{
+    font-size: 14px;
+    width: 196px;
+    height: 36px ;
+    font-weight: 600;
+}
+
+main{
+    padding: 16px;
+}
+main h2{
+    margin-top: 3rem;
+    font-weight: 600;
+}
+.filtros{
+    display: flex;
+    font-size: 10px;
+    margin-top: .5rem;
+}
+.filtros p{
+    padding: .3rem;
+    border-radius: 1rem;
+    font-weight: 500;
+    margin: 0 .15rem;
+    border: 1px solid #888888;
+}
+.filtro-active {
+    background-color: #ceebe894;
+    border-color: #292929 !important;
+    color: black !important;
+}
+.carro-cards{
+    overflow: auto;
+    display: flex;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.carro-cards::-webkit-scrollbar {
+    display: none;
+  }
+.carro-card{
+    border-radius: 5px;
+    background: linear-gradient(180deg, rgba(88, 255, 237, 0.10) 0%, rgba(232, 255, 252, 0.00) 100%, rgba(255, 255, 255, 0.10) 100%);
+    box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.18);
+    font-size: 10px;
+    color: #5F5F5F;
+    width: fit-content;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin: 1rem 0.5rem;
+}
+.carro-div{
+    text-align: center;
+    padding:1rem;
+}
+.carro-img{
+    min-width: 150px;
+}
+.especificacoes{
+    padding: 0 1rem;
+}
+.especificacao{
+    display: flex;
+    align-items: center;
+}
+.icon{
+    font-size: 14px;
+}
+.especificacao p{
+    margin-left: 0.5rem;
+}
+
+.footer-content{
+    border-top: 1px solid #C2C2C2;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem ;
+}
+.content{
+    padding: 0 1rem;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin: 1rem 0 2rem 0;
+}
+.perguntas{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    transition: all 0.3s ease;
+    margin-top: 1rem;
+}
+
+.resposta{
+    display: block;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in;
+}
+.perguntas.active .icon {
+  transform: rotate(180deg);
+}
+.icon {
+    cursor: pointer;
+    transition: transform 0.3s ease-in;
+}
+
+.perguntas.active .resposta {
+    max-height: 200px;
+    display: none;
+}
+
+

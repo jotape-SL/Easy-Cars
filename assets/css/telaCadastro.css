@@ -1,7 +1,8 @@
 body{
-    padding: 16px;
+    height: 100vh;
     overflow: hidden;
 }
+
 main{
     text-align: center;
     display: flex;
@@ -75,6 +76,8 @@ input{
     margin-top: 3rem;
     height: fit-content;
     display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
     flex-direction: column;
 }
 .link-color{
