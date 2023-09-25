@@ -1,0 +1,68 @@
+body{
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+.header{
+    text-align: center;
+    padding: 2rem 1rem;
+    background-image: linear-gradient(21deg, #999 49.95%, rgba(255, 255, 255, 0.00) 87.42%);
+}
+
+.carro-nm{
+    padding: 1rem;
+    display: flex;
+}
+h1{
+    font-size: 18px;
+    font-weight: 600;
+}
+.carro-nm p{
+    font-size: 12px;
+}
+.carro-nm img{
+    margin-left: 1rem;
+}
+
+.preco{
+    font-size: 12px;
+    padding: 1rem;
+}
+
+.carro-ds{
+    font-size: 15px;
+    padding: 0 1rem;
+}
+
+.carro-banner{
+    margin: 2rem 0;
+    width: 100vw;
+}
+
+.especificacoes{
+    color: #5F5F5F;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 1rem;
+}
+.especificacao{
+    display: flex;
+    align-items: center;
+}
+.icon{
+    font-size: 14px;
+}
+.especificacao p{
+    margin-left: 0.5rem;
+}
+
+.footer{
+    background-color: #B1C3C2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin-top: 5rem;
+    height: 20vh;
+}
