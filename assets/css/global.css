@@ -19,7 +19,17 @@ body{
     width: 260px;
     height: 50px;
 }
-
 .btn-easycar__entrar{
     font-size: 18px;
+}
+
+.nav-footer{
+    background: #D6EAE8;
+    width: 100vw;
+    bottom: 0;
+    position: fixed;
+    padding: .5rem;
+    display: flex;    
+    justify-content: space-evenly;
+    text-align: center;
 }
