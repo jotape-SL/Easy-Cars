@@ -1,0 +1,69 @@
+body{
+    padding: 0;
+    text-align: center;
+}
+header{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 4rem 3rem;
+    background-color: #084A48;
+    color: white;
+}
+main{
+    padding: 1rem;
+}
+h2{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.foto-perfil{
+    width: 80%;
+    margin-top: 3rem;
+    border-radius: 0.375rem;
+}
+.tag-usuario{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tag-usuario p{
+    margin-top: 1.5rem ;
+    margin-bottom: .5rem;
+}
+.input-group{
+    width: 80vw;
+    /* width: 50vw; valor com media */
+}
+
+
+.infos{
+    margin-top: 2rem;
+    text-align: start;
+}
+.infos p{
+    margin-bottom: .875rem;
+}
+.dado-bc{
+    font-size: 10px;
+    margin-bottom: .2rem !important;
+    opacity: .9;
+}
+
+.infos2{
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    text-align: none;
+}
+
+
+.link-color{
+    font-weight: bold;
+    color: #000088;
+}
+.redef-msg{
+    padding-bottom: 15px;
+}
