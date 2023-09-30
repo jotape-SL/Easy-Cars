@@ -56,7 +56,7 @@ h2{
 .infos2{
     margin-top: 2rem;
     margin-bottom: 4rem;
-    text-align: none;
+    text-align: -webkit-center;
 }
 
 .link-color{
@@ -70,11 +70,18 @@ h2{
 /* Media Queries */
 
 @media (min-width:768px){
-    .foto-perfil{
-        width: 40%;
+    main{
+        padding: 2rem;
     }
     h2{
         font-size: 20px;
+    }
+    
+    .card-aluguel{
+        width: 80vw;
+    }
+    .foto-perfil{
+        width: 30%;
     }
     .input-group{
         width: 50vw;

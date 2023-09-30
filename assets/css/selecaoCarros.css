@@ -32,10 +32,17 @@ h1{
     font-size: 15px;
     padding: 0 1rem;
 }
+.lorem{
+    margin-bottom: .8rem;
+}
 
+.carro-banner-div{
+    width: 100vw;
+    overflow-x: hidden;
+}
 .carro-banner{
     margin: 2rem 0;
-    width: 100vw;
+    width: 200vw;
 }
 
 .especificacoes{
@@ -43,6 +50,7 @@ h1{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-top: 3rem;
     padding: 0 1rem;
 }
 .especificacao{
@@ -68,10 +76,13 @@ h1{
 
 @media (min-width: 768px){
     .header img{
-        width: 50vw;
+        width: 40vw;
     }
     h1{
         font-size: 24px;
+    }
+    .carro-nm{
+        padding: 2rem 3rem;
     }
     .carro-nm p{
         font-size: 16px;
@@ -82,8 +93,13 @@ h1{
     }
     .preco{
         font-size: 18px;
+        padding: 1rem 3rem;
+    }
+    .carro-banner{
+        width: 100vw;
     }
     .carro-ds{
+        padding: 0 3rem;
         font-size: 20px;
     }
     .icon span{
