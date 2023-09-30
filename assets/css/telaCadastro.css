@@ -87,3 +87,11 @@ input{
 .redef-msg{
     padding-bottom: 15px;
 }
+
+/* Media Queries */
+
+@media (min-width: 768px) {
+    .input-div{
+        width: 40vw;
+    }
+}

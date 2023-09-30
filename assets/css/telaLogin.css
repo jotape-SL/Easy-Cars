@@ -1,5 +1,5 @@
 body{
-    height: 100vh;
+    height: 100%;
     overflow: hidden;
 }
 main{
@@ -78,4 +78,27 @@ h1{
     width: 28px;
     height: 28px;
     margin-right: 13px;
+}
+
+/* Media Queries*/
+
+@media (min-width: 768px){
+    h1{
+        font-size: 54px;
+    }
+    .header_text p{
+        font-size: 24px;
+    }
+    .nuvens img{
+        width: 8vw;
+    }
+    .carro{
+        width: 35vw;
+    }
+    .login_btns{
+        height: 22vh;
+    }
+    .btn-easycar{
+        font-size: 16px !important;
+    }
 }
